@@ -1,3 +1,5 @@
+// test
+
 function solution(n) {
   var answer = 1;
   let flag;
@@ -24,21 +26,32 @@ function solution(n) {
 }
 
 
+
+
+// failed
+
 function solution(n) {
-  var answer = 1;
+  let primeCnt = 0;
 
-  // root n 값 구해서 값보다 큰 근사 값 중 6의 최소 배수 찾기
-  
-  // 해당 최소 배수부터 6을 텀으로 돌며 - +1 값 중 최소 소수 찾기 (페르마)
-  
-  // 2 ~ 해당 최소 소수까지 loop 으로 페르마 판별 -> 소수일 경우 배열 저장
-  
-  // 2~n 자연수 중 찾은 소수들의 배수들을 모두 제거해줌 (중복 값 주의)
-  
-  // 2, 3 주의 
+  if(n <= 10){
+      
+      for(let num = 2; num <= n; num++){
+          if(num === 2 || num === 3 || num === 5 || num === 7){
+              primeCnt++;
+          }
+      }
+      
+  }else{
+      
+      primeCnt = 4;
+      for(let num = 11; num <= n; num++){
+          if((num%2 !== 0 && num%3 !== 0 && num%5 !== 0 && num%7 !== 0) && (num%6 === 5 || num%6 ===1)){
+              primeCnt++;
+          }
+      }
+  } 
 
-  
-  return answer;
+return primeCnt;
 }
 
 
