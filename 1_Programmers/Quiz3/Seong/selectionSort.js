@@ -30,6 +30,6 @@ function solution(arr, divisor) {
 }
 
 
-console.time("solution");
-solution([1, 2, 3, 80, 22, 44, 78, 5, 34, 24, 36], 2)
-console.timeEnd("solution");
+// console.time("solution");
+// solution([1, 2, 3, 80, 22, 44, 78, 5, 34, 24, 36], 2)
+// console.timeEnd("solution");
