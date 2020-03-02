@@ -20,3 +20,4 @@ function solution(s) {
 }
 
 console.log(solution2('1234'));
+//
