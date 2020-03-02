@@ -1,4 +1,5 @@
-// 실패 (원인 모르겠음)
+// isNaN : 성공
+// !parseInt : 실패
 
 function solution(s) {
     const sl = s.length;
@@ -9,7 +10,8 @@ function solution(s) {
     } 
     
     for(let i in s){
-        if(!parseInt(s[i])) {
+        // if(!parseInt(s[i])) {        // parseInt 로 검증 : 실패
+        if(isNaN(s[i])) {               // isNan : 성공
              // console.log(2);
             return false;
         }
