@@ -11,7 +11,7 @@ class Minstack {
     push(x) { // stack이 비어있을 경우
         if (stackArr.length === 0) {
             stackArr.push([x, x]);
-            return
+            return;
         }
 
         const currentMin = last(this.stack)[1]; // [3, 2] -> 2

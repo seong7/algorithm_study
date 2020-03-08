@@ -20,3 +20,4 @@
 - 20 - Valid Parentheses [[폴더](2_LeetCode/Quiz3)] | [[Web](https://leetcode.com/problems/valid-parentheses/)]
 - 21 - Merge Two Sorted Lists[[폴더](2_LeetCode/Quiz4)]|[[Web](https://leetcode.com/problems/merge-two-sorted-lists/)]
 - 155 - Min Stack[[폴더](2_LeetCode/Quiz5)]|[[Web](https://leetcode.com/problems/min-stack/)]
+- 242 - Valid Anagram[[폴더](2_LeetCode/Quiz6)]|[[Web](https://leetcode.com/problems/valid-anagram/)]
