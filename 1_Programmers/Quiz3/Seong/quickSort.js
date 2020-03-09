@@ -82,30 +82,44 @@ function partition (array, startIdx, lastIdx, pivotIdx) {
     const pivot = array[pivotIdx];
 
     
-    while(leftPointer <= pivotIdx){
+    // while(leftPointer <= pivotIdx){
+    while(leftPointer <= rightPointer){
         while(array[leftPointer] < pivot){
             leftPointer++;
         }
 
-        if(leftPointer < rightPointer){ // 왼쪽 포인터가 오른쪽 포인터에 도달하면 동작 안함
-            while(array[rightPointer] >= pivot && leftPointer < rightPointer){
-                rightPointer--;
-            }
-            change(leftPointer, rightPointer);
-        }else{
-            break;
+        // if(leftPointer < rightPointer){ // 왼쪽 포인터가 오른쪽 포인터에 도달하면 동작 안함
+        //     while(array[rightPointer] >= pivot && leftPointer < rightPointer){
+        //         rightPointer--;
+        //     }
+        //     change(leftPointer, rightPointer);
+        // }else{
+        //     break;
+        // }
+
+        while(array[rightPointer] > pivot){
+            rightPointer--;
+        }
+        if(leftPointer <= rightPointer){
+            // change(leftPointer, rightPointer);
+            let swap = array[leftPointer];
+            array[leftPointer] = array[rightPointer];
+            array[rightPointer] = swap;
+            leftPointer++;
+            rightPointer--;
         }
     }
 
-    function change(idx1, idx2){
-        let tempVal = array[idx1];
-        array[idx1] = array[idx2];
-        array[idx2] = tempVal;
-        console.log(array[0], array[1], array[2], array[3], array[4], array[5], array[6]);
-        return idx1;
-    }
+    // function change(idx1, idx2){
+    //     let swap = array[idx1];
+    //     array[idx1] = array[idx2];
+    //     array[idx2] = swap;
+    //     console.log(array[0], array[1], array[2], array[3], array[4], array[5], array[6]);
+    //     return idx1;
+    // }
     
-    return leftPointer === pivotIdx ? leftPointer : change(leftPointer, pivotIdx);  // 교환은 leftPointer 와 pivotIdx 가 다를 때만 일어남
+    // return leftPointer === pivotIdx ? leftPointer : change(leftPointer, pivotIdx);  // 교환은 leftPointer 와 pivotIdx 가 다를 때만 일어남
+    return leftPointer;
 }
 // console.log(partition([0, 1, 2, 3, 6, 5], 0, 1, 2));
                     //  
