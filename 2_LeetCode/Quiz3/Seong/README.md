@@ -2,7 +2,7 @@
 
 - ### Solution
   1. #### 나의 코드: O(N) [>>](solution.js)
-  2. #### 참고 코드: O(N) [>>](bestSolution.js)
+  2. #### 참고 코드: O(N) [>>](ref.js)
 
 ```
 - 나의 코드 : Regexp 사용해서 open / close 괄호 구분, switch 로 괄호 유효성 검증
