@@ -2,8 +2,8 @@
 
 - ### Solution
   1. #### 나의 코드: O(N) [>>](solution.js)
-  2. #### 참고 코드 1 (더 효율적): [>>](others.js)
-  3. #### 참고 코드 2 (recursion) : [>>](others_recursion.js)
+  2. #### 참고 코드 1 (더 효율적): [>>](ref.js)
+  3. #### 참고 코드 2 (recursion) : [>>](ref_recursion.js)
 
 ```
 너무 어려워서 우선 다른 사람의 코드를 보고 학습함.
