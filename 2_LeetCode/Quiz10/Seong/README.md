@@ -2,7 +2,8 @@
   : built-in library 사용 없이 HashSet 구현하는 문제
 
 - ### Solution
-  1. #### 나의 코드 [>>](solution.js)
+  1. #### 나의 코드 (HashTable 사용) [>>](hashtable.js)
+  1. #### 나의 코드 (list 사용)__ 매우 비효율적 [>>](list.js)
 
   ```
   Memo
