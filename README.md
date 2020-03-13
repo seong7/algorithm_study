@@ -24,5 +24,5 @@
 - 242 - Valid Anagram[[폴더](2_LeetCode/Quiz6)]|[[Web](https://leetcode.com/problems/valid-anagram/)]
 - 448 - Find All Numbers Disappeared in an Array[[폴더](2_LeetCode/Quiz7)]|[[Web](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/)]
 - 226 - Invert Binary Tree[[폴더](2_LeetCode/Quiz8)]|[[Web](https://leetcode.com/problems/invert-binary-tree/)]
-- 108. Convert Sorted Array to Binary Search Tree[[폴더](2_LeetCode/Quiz9)]|[[Web](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)]
-- 705. Design HashSet[[폴더](2_LeetCode/Quiz10)]|[[Web](https://leetcode.com/problems/design-hashset/)]
+- 108 - Convert Sorted Array to Binary Search Tree[[폴더](2_LeetCode/Quiz9)]|[[Web](https://leetcode.com/problems/convert-sorted-array-to-binary-search-tree/)]
+- 705 - Design HashSet[[폴더](2_LeetCode/Quiz10)]|[[Web](https://leetcode.com/problems/design-hashset/)]
