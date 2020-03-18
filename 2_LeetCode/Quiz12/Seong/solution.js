@@ -43,4 +43,4 @@ var getSum = function(a, b) {
 // console.log(getSum(0, 17));
 // console.log(getSum(-1, -2));
 // console.log(getSum(-4, 4));
-// console.log(getSum(-3, 4));
+console.log(getSum(-3, 4));
