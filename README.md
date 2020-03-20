@@ -29,4 +29,6 @@
 - 705 - Design HashSet[[폴더](2_LeetCode/Quiz10)]|[[Web](https://leetcode.com/problems/design-hashset/)]
 - 53 - Maximum Subarray[[폴더](2_LeetCode/Quiz11)]|[[Web](https://leetcode.com/problems/maximum-subarray/)]
 - 371 - Sum of Two Integers[[폴더](2_LeetCode/Quiz12)]|[[Web](https://leetcode.com/problems/sum-of-two-integers/)]
-- 412 - Fizz Buzz[[폴더](2_LeetCode/Quiz12)]|[[Web](https://leetcode.com/problems/fizz-buzz/)]
+- 412 - Fizz Buzz[[폴더](2_LeetCode/Quiz13)]|[[Web](https://leetcode.com/problems/fizz-buzz/)]
+- 605 - Can Place Flowers[[폴더](2_LeetCode/Quiz14)]|[[Web](https://leetcode.com/problems/can-place-flowers/)]
+
