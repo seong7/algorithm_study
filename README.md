@@ -31,4 +31,5 @@
 - 371 - Sum of Two Integers[[폴더](2_LeetCode/Quiz12)]|[[Web](https://leetcode.com/problems/sum-of-two-integers/)]
 - 412 - Fizz Buzz[[폴더](2_LeetCode/Quiz13)]|[[Web](https://leetcode.com/problems/fizz-buzz/)]
 - 605 - Can Place Flowers[[폴더](2_LeetCode/Quiz14)]|[[Web](https://leetcode.com/problems/can-place-flowers/)]
+- 70 - Climbing Stairs[[폴더](2_LeetCode/Quiz15)]|[[Web](https://leetcode.com/problems/climbing-stairs/)]
 
