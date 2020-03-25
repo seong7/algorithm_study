@@ -32,4 +32,5 @@
 - 412 - Fizz Buzz[[폴더](2_LeetCode/Quiz13)]|[[Web](https://leetcode.com/problems/fizz-buzz/)]
 - 605 - Can Place Flowers[[폴더](2_LeetCode/Quiz14)]|[[Web](https://leetcode.com/problems/can-place-flowers/)]
 - 70 - Climbing Stairs[[폴더](2_LeetCode/Quiz15)]|[[Web](https://leetcode.com/problems/climbing-stairs/)]
+- 852 - Peak Index in a Mountain Array[[폴더](2_LeetCode/Quiz16)]|[[Web](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)]
 
