@@ -35,4 +35,5 @@
 - 852 - Peak Index in a Mountain Array[[폴더](2_LeetCode/Quiz16)]|[[Web](https://leetcode.com/problems/peak-index-in-a-mountain-array/description/)]
 - 938 - Range Sum of BST[[폴더](2_LeetCode/Quiz17)]|[[Web](https://leetcode.com/problems/range-sum-of-bst/)]
 - 589 - N-ary Tree Preorder Traversal[[폴더](2_LeetCode/Quiz18)]|[[Web](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)]
+- 136 - Single Number[[폴더](2_LeetCode/Quiz19)]|[[Web](https://leetcode.com/problems/single-number/description/)]
 
