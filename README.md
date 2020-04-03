@@ -12,7 +12,6 @@
 - 문자열 다루기 기본 [[폴더](1_Programmers/Quiz7)] | [[Web](https://programmers.co.kr/learn/courses/30/lessons/12918)]
 - 시저암호 [[폴더](1_Programmers/Quiz8)] | [[Web](https://programmers.co.kr/learn/courses/30/lessons/12926)]
 
-
 ## LeetCode
 
 ### Easy
@@ -36,4 +35,4 @@
 - 938 - Range Sum of BST[[폴더](2_LeetCode/Quiz17)]|[[Web](https://leetcode.com/problems/range-sum-of-bst/)]
 - 589 - N-ary Tree Preorder Traversal[[폴더](2_LeetCode/Quiz18)]|[[Web](https://leetcode.com/problems/n-ary-tree-preorder-traversal/)]
 - 136 - Single Number[[폴더](2_LeetCode/Quiz19)]|[[Web](https://leetcode.com/problems/single-number/description/)]
-
+- 169 - Majority Element[[폴더](2_LeetCode/Quiz20)]|[[Web](https://leetcode.com/problems/majority-element/)]
