@@ -12,7 +12,6 @@
 - 문자열 다루기 기본 [[폴더](1_Programmers/Quiz7)] | [[Web](https://programmers.co.kr/learn/courses/30/lessons/12918)]
 - 시저암호 [[폴더](1_Programmers/Quiz8)] | [[Web](https://programmers.co.kr/learn/courses/30/lessons/12926)]
 
-
 ## LeetCode
 
 ### Easy
