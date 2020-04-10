@@ -38,3 +38,4 @@
 - 136 - Single Number[[폴더](2_LeetCode/Quiz19)]|[[Web](https://leetcode.com/problems/single-number/description/)]
 - 169 - Majority Element[[폴더](2_LeetCode/Quiz20)]|[[Web](https://leetcode.com/problems/majority-element/)]
 - 283 - Move Zeroes[[폴더](2_LeetCode/Quiz21)]|[[Web](https://leetcode.com/problems/move-zeroes/)]
+- 141 - Linked List Cycle[[폴더](2_LeetCode/Quiz22)]|[[Web](https://leetcode.com/problems/linked-list-cycle/)]
