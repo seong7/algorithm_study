@@ -1,14 +1,12 @@
-const hasCycle = (head) => {
-  let p1 = head;
-  let p2 = head;
+// hashtable 사용 (객체 내에 새로운 property 부여)
+// time : O(n)
+var hasCycle = function (head) {
+  let currentNode = head;
 
-  while (p2 && p2.next && p2.next.next) {
-    p1 = p1.next;
-    p2 = p2.next.next;
-
-    if (p1 === p2) {
-      return true;
-    }
+  while (currentNode !== null) {
+    if (currentNode.visited) return true;
+    currentNode.visited = true;
+    currentNode = currentNode.next;
   }
 
   return false;
