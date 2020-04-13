@@ -39,3 +39,8 @@
 - 169 - Majority Element[[폴더](2_LeetCode/Quiz20)]|[[Web](https://leetcode.com/problems/majority-element/)]
 - 283 - Move Zeroes[[폴더](2_LeetCode/Quiz21)]|[[Web](https://leetcode.com/problems/move-zeroes/)]
 - 141 - Linked List Cycle[[폴더](2_LeetCode/Quiz22)]|[[Web](https://leetcode.com/problems/linked-list-cycle/)]
+
+
+### BaekJoon
+
+- 10996 - 별 찍기 -21 [[폴더](3_BaekJoon/Quiz1)]|[[Web](https://www.acmicpc.net/problem/10996)]
