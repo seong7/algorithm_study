@@ -26,7 +26,7 @@ A solution set is:
 
 ### 나의 코드
 
-hashmap 을 사용해 시간 효율을 높여보려 했지만, 그래도 Time Linit Exceeded 에러가 발생한다.
+hashmap 을 사용해 시간 효율을 높여보려 했지만, 그래도 Time Limit Exceeded 에러가 발생한다.
 
 ```javascript
 /**
