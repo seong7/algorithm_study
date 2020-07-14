@@ -205,7 +205,7 @@ const widthOfBinaryTree = (root) => {
    - 하지만, node 꺼내기 전 현재 queue 의 길이 값을 저장해두고 그 길이만큼만 loop 을 돌리면 새로 추가된 다음 level 의 자식 node 들은 꺼내지 않으므로 문제가 해결된다.
 
 2. Position 값을 활용한 너비 구하기
-   - 너비는 왼쪽 pointer 와 오른쪽 pointer 사이의 null 들 또한 포함해서 계산해야 한다. 나는 모든 node 들의 개수를 세어 너비를 구하자고 생각했다. null 들에 모두 임의로 null 이라는 값 (val) 을 가진 객체를 생성해 그 자식 node 들 도한 Queue 에 저장해주는 억지스러운 결정을 했다. (수를 맞춰주려고..)
+   - 너비는 왼쪽 pointer 와 오른쪽 pointer 사이의 null 들 또한 포함해서 계산해야 한다. 나는 모든 node 들의 개수를 세어 너비를 구하자고 생각했다. null 들에 모두 임의로 null 이라는 값 (val) 을 가진 객체를 생성해 그 자식 node 들 또한 Queue 에 저장해주는 억지스러운 결정을 했다. (수를 맞춰주려고..)
    - position 값을 이용하면 훨씬 스마트하게 해결가능했다. node 의 property 에 pos 값을 저장해두었다.
    - **가장 창의적이었던 부분**은 자식 node 들의 pos 값을 정해주는 방식이었는데, 부모 node 의 pos 값에 2 를 곱해 left 자식은 + 1 , 오른쪽 자식은 + 2 를 해주었다.  
      **이렇게 하면 모든 node 가 고유의 자리 값을 가지게 된다. (full binary tree 가 층이 내려갈 수록 (\* 2) 의 node 수를 가진다는 점을 염두하면 이해가 수월하다.)**

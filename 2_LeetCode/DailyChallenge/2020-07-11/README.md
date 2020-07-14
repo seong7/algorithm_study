@@ -2,7 +2,7 @@
 
 ## Flatten a Multilevel Doubly Linked List
 
-> [문제 출처](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/545/week-2-july-8th-july-14th/3386/)
+> [문제 출처](https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/)
 
 ### 문제
 

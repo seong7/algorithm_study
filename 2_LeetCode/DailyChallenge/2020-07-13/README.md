@@ -2,7 +2,7 @@
 
 ## Subsets
 
-> [문제 출처](https://leetcode.com/explore/challenge/card/july-leetcoding-challenge/545/week-2-july-8th-july-14th/3388/)
+> [문제 출처](https://leetcode.com/problems/subsets/)
 
 ### 문제
 
